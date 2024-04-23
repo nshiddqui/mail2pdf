@@ -48,6 +48,6 @@
         "handlebars": "^4.7.7",
         "mailparser": "^3.1.0",
         "pretty-bytes": "^5.6.0",
-        "puppeteer": "^8.0.0"
+        "puppeteer": "^21.1.1"
     }
 }

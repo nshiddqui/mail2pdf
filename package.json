@@ -1,5 +1,5 @@
 {
-    "name": "mail2pdf",
+    "name": "mail2pdf-docker",
     "version": "0.2.0",
     "description": "Render emails stored as .eml files to PDF.",
     "main": "dist/index.js",

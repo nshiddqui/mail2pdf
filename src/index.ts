@@ -48,6 +48,7 @@ export = async function mail2pdf(
     );
 
     const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'], });
+    
     const page = await browser.newPage();
 
     const result = await Promise.all(

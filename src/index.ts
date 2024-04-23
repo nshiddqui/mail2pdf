@@ -47,7 +47,7 @@ export = async function mail2pdf(
         (await fs.readFile(join(__dirname, '..', 'res', 'templates', options?.template_name + '.hbr'))).toString()
     );
 
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'], });
     const page = await browser.newPage();
 
     const result = await Promise.all(

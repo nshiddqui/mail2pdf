@@ -15,8 +15,8 @@ The actual implementation is rather simple, it is mostly a thin wrapper around [
 You can install mail2pdf using yarn or npm:
 
 ```sh
-yarn add mail2pdf
-# or `npm i mail2pdf`
+yarn add mail2pdf-docker
+# or `npm i mail2pdf-docker`
 ```
 
 ## Example usage
